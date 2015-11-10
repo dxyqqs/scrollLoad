@@ -13,9 +13,10 @@
 // 				data={};
 // 			}
 // 			Ares.Service.get(data,{},function(json){
-// 				//这里面需要手动修改data属性
+//
+SLObj.html($(temp).render(json));//通知插件插入html
 // 				SLObj.complete();//通知插件数据全部加载完成，后续将不再执行request方法,并回显数据加载完成数据
-// 				SLObj.html($(temp).render(json));//通知插件插入html
+//
 // 			})
 // 		}
 // 	}
@@ -32,14 +33,14 @@
 /*HTML结构部分
  *<div id="scrollLoad"><!--滚动容器-->
 
-	 <div class='content'>
+ <div class='content'>
 
-		 <div class='scrollLoad-tipRefresh'><span class='tip'></span></div><!--刷新提示-->
-		 <ul class="scrollLoad-content"><!--内容部分-->
+ <div class='scrollLoad-tipRefresh'><span class='tip'></span></div><!--刷新提示-->
+ <ul class="scrollLoad-content"><!--内容部分-->
 
-		 </ul>
-		 <div class='scrollLoad-tipLoad'><span class='tip'></span></div><!--加载提示-->
-	 </div>
+ </ul>
+ <div class='scrollLoad-tipLoad'><span class='tip'></span></div><!--加载提示-->
+ </div>
 
  </div>
  *
