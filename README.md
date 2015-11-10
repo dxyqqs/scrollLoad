@@ -1,6 +1,5 @@
 ## 依赖iscroll5的jquery滚动加载插件
 
----
 ###描述
 尽管iscroll5已有**iscroll-infinite.js**版本，但公司业务需求依然需要仿照移动APP的滚动加载方式。
 插件依赖[iscroll5][1]和[jQuery][2],其中对于iscroll需要**iscroll-probe.js** 
