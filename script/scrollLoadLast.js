@@ -14,7 +14,7 @@
 // 			}
 // 			Ares.Service.get(data,{},function(json){
 //
-SLObj.html($(temp).render(json));//通知插件插入html
+//				SLObj.html($(temp).render(json));//通知插件插入html
 // 				SLObj.complete();//通知插件数据全部加载完成，后续将不再执行request方法,并回显数据加载完成数据
 //
 // 			})
